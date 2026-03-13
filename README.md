@@ -1,5 +1,5 @@
 # churn-prediction
-Developed as part of AAI2002 (Team ITP_14), churn-prediction is a machine learning pipeline built to predict customer churn in subscription-based industries. Using XGBoost with SMOTE-ENN resampling and SHAP explainability, it identifies at-risk customers and surfaces actionable, customer-level reasons for churn risk rather than just a score.
+Developed as part of project under (Team ITP_14), churn-prediction is a machine learning pipeline built to predict customer churn in subscription-based industries. Using XGBoost with SMOTE-ENN resampling and SHAP explainability, it identifies at-risk customers and surfaces actionable, customer-level reasons for churn risk rather than just a score.
 
 **Best result:** 81.28% recall, 62.94% F1, 0.8263 AUC (SMOTE-ENN + Recall-tuned XGBoost, threshold 0.50)
 
