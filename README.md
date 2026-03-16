@@ -48,9 +48,9 @@ Precision sits at 51.35%, so roughly every other customer flagged as at-risk did
 ## Repo Structure
 ```
 churn-prediction/
-├── main.ipynb              # authoritative pipeline, all final figures sourced here
+├── main.ipynb              
 ├── requirements.txt
-└── experiments/
+└── experiment/
     ├── imbalance_technique_comparison.ipynb
     ├── logistic_regression.ipynb
     └── xgboost_smote.ipynb
