@@ -5,7 +5,6 @@ Developed as part of a project under Team ITP_14, churn-prediction is a machine 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlemxy/churn-prediction/blob/main/main.ipynb)
 
-
 ## Technologies
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
