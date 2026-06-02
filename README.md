@@ -34,7 +34,6 @@ threshold 0.50)
 | XGBoost, no resampling | 52.05% | 55.67% | 0.8142 |
 | SMOTE-ENN + XGBoost default | 68.98% | 60.99% | 0.8183 |
 | **SMOTE-ENN + XGBoost, recall-tuned** | **81.28%** | **62.94%** | **0.8263** |
-| FE pipeline, recall-tuned (rejected) | 72.91% | 61.92% | 0.8256 |
 
 ---
 
@@ -58,10 +57,6 @@ per-customer explanations. A waterfall plot can tell a retention team exactly wh
 pushed a specific customer's churn probability up or down, which is more actionable than a
 global feature ranking.
 
-> Note: An exploratory XGBoost+SMOTE result was produced with SMOTE applied before the
-> train/test split, introducing data leakage. All technical claims in this README use
-> main.ipynb figures only.
-
 ---
 
 ## Key Findings
@@ -76,16 +71,8 @@ risk than long-term subscribers.
 ranking third and fourth in global SHAP importance respectively.
 
 Optimal classification threshold is 0.50. Feature engineering (charge_per_tenure,
-service_count, has_any_addon) produced an 8.37pp recall regression versus the base pipeline
-and was rejected.
-
----
-
-## Limitations
-
-Precision sits at 51.35%, so roughly every other customer flagged as at-risk did not
-actually churn. Without a CLV estimate and campaign cost to build a profit curve against,
-it is hard to define an acceptable precision floor.
+service_count, has_any_addon) was evaluated and dropped after ablation confirmed a recall
+regression versus the base pipeline.
 
 ---
 
@@ -112,12 +99,3 @@ pip install -r requirements.txt
 
 Open `main.ipynb`. Developed on Google Colab free tier but runs locally as long as
 dependencies are installed. Requires a Kaggle API token to download the dataset.
-
----
-
-## Acknowledgements
-
-Claude was used in a supporting capacity: research, code debugging, error diagnosis, and
-formatting only. All analytical reasoning, including problem framing, pipeline architecture,
-technique selection, hyperparameter tuning, and interpretation of results, was conducted
-independently with reference to cited literature and Kaggle notebooks.
