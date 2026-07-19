@@ -1,0 +1,23 @@
+CREATE TABLE dbo.telco_churn (
+    customerID        nvarchar(20) NOT NULL PRIMARY KEY,
+    gender            nvarchar(10) NULL,
+    SeniorCitizen     bit NULL,
+    Partner           nvarchar(5) NULL,
+    Dependents        nvarchar(5) NULL,
+    tenure            int NULL,
+    PhoneService      nvarchar(5) NULL,
+    MultipleLines     nvarchar(30) NULL,
+    InternetService   nvarchar(30) NULL,
+    OnlineSecurity    nvarchar(30) NULL,
+    OnlineBackup      nvarchar(30) NULL,
+    DeviceProtection  nvarchar(30) NULL,
+    TechSupport       nvarchar(30) NULL,
+    StreamingTV       nvarchar(30) NULL,
+    StreamingMovies   nvarchar(30) NULL,
+    Contract           nvarchar(30) NULL,
+    PaperlessBilling  nvarchar(5) NULL,
+    PaymentMethod     nvarchar(40) NULL,
+    MonthlyCharges    decimal(10,2) NULL,
+    TotalCharges      decimal(10,2) NULL,
+    Churn             nvarchar(5) NULL
+);
