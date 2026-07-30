@@ -1,0 +1,602 @@
+[
+  {
+    "customer_id": "18091.0",
+    "recency_days": 138,
+    "frequency": 1,
+    "monetary": 360.85
+  },
+  {
+    "customer_id": "12648.0",
+    "recency_days": 185,
+    "frequency": 2,
+    "monetary": 311.8
+  },
+  {
+    "customer_id": "14548.0",
+    "recency_days": 29,
+    "frequency": 7,
+    "monetary": 1888.49
+  },
+  {
+    "customer_id": "17611.0",
+    "recency_days": 3,
+    "frequency": 12,
+    "monetary": 3911.06
+  },
+  {
+    "customer_id": "14239.0",
+    "recency_days": 28,
+    "frequency": 9,
+    "monetary": 1462.71
+  },
+  {
+    "customer_id": "17742.0",
+    "recency_days": 1,
+    "frequency": 8,
+    "monetary": 1628.87
+  },
+  {
+    "customer_id": "13112.0",
+    "recency_days": 86,
+    "frequency": 1,
+    "monetary": 20.6
+  },
+  {
+    "customer_id": "16890.0",
+    "recency_days": 21,
+    "frequency": 3,
+    "monetary": 285.41
+  },
+  {
+    "customer_id": "12958.0",
+    "recency_days": 128,
+    "frequency": 1,
+    "monetary": 166.89
+  },
+  {
+    "customer_id": "16129.0",
+    "recency_days": 52,
+    "frequency": 1,
+    "monetary": 446.94
+  },
+  {
+    "customer_id": "15810.0",
+    "recency_days": 9,
+    "frequency": 3,
+    "monetary": 1159.02
+  },
+  {
+    "customer_id": "15498.0",
+    "recency_days": 9,
+    "frequency": 9,
+    "monetary": 8023.94
+  },
+  {
+    "customer_id": "17930.0",
+    "recency_days": 32,
+    "frequency": 6,
+    "monetary": 1910.1
+  },
+  {
+    "customer_id": "16529.0",
+    "recency_days": 22,
+    "frequency": 3,
+    "monetary": 1531.55
+  },
+  {
+    "customer_id": "15012.0",
+    "recency_days": 121,
+    "frequency": 1,
+    "monetary": 241.22
+  },
+  {
+    "customer_id": "16486.0",
+    "recency_days": 82,
+    "frequency": 1,
+    "monetary": 134.36
+  },
+  {
+    "customer_id": "16454.0",
+    "recency_days": 151,
+    "frequency": 2,
+    "monetary": 24.05
+  },
+  {
+    "customer_id": "17996.0",
+    "recency_days": 91,
+    "frequency": 2,
+    "monetary": 262.9
+  },
+  {
+    "customer_id": "14912.0",
+    "recency_days": 135,
+    "frequency": 2,
+    "monetary": 497.0
+  },
+  {
+    "customer_id": "15246.0",
+    "recency_days": 100,
+    "frequency": 1,
+    "monetary": 266.25
+  },
+  {
+    "customer_id": "14437.0",
+    "recency_days": 29,
+    "frequency": 3,
+    "monetary": 642.34
+  },
+  {
+    "customer_id": "16439.0",
+    "recency_days": 267,
+    "frequency": 1,
+    "monetary": 310.7
+  },
+  {
+    "customer_id": "12983.0",
+    "recency_days": 143,
+    "frequency": 1,
+    "monetary": 490.08
+  },
+  {
+    "customer_id": "13204.0",
+    "recency_days": 276,
+    "frequency": 1,
+    "monetary": 966.66
+  },
+  {
+    "customer_id": "14425.0",
+    "recency_days": 267,
+    "frequency": 2,
+    "monetary": 422.29
+  },
+  {
+    "customer_id": "17987.0",
+    "recency_days": 95,
+    "frequency": 1,
+    "monetary": 173.98
+  },
+  {
+    "customer_id": "14183.0",
+    "recency_days": 26,
+    "frequency": 1,
+    "monetary": 139.58
+  },
+  {
+    "customer_id": "16651.0",
+    "recency_days": 131,
+    "frequency": 1,
+    "monetary": 136.2
+  },
+  {
+    "customer_id": "14674.0",
+    "recency_days": 54,
+    "frequency": 1,
+    "monetary": 173.66
+  },
+  {
+    "customer_id": "17023.0",
+    "recency_days": 31,
+    "frequency": 2,
+    "monetary": 604.56
+  },
+  {
+    "customer_id": "17179.0",
+    "recency_days": 107,
+    "frequency": 1,
+    "monetary": 193.17
+  },
+  {
+    "customer_id": "13425.0",
+    "recency_days": 53,
+    "frequency": 2,
+    "monetary": 1766.22
+  },
+  {
+    "customer_id": "12972.0",
+    "recency_days": 127,
+    "frequency": 3,
+    "monetary": 1019.04
+  },
+  {
+    "customer_id": "12831.0",
+    "recency_days": 8,
+    "frequency": 2,
+    "monetary": 236.06
+  },
+  {
+    "customer_id": "17991.0",
+    "recency_days": 136,
+    "frequency": 1,
+    "monetary": 206.95
+  },
+  {
+    "customer_id": "12443.0",
+    "recency_days": 277,
+    "frequency": 1,
+    "monetary": 485.31
+  },
+  {
+    "customer_id": "17679.0",
+    "recency_days": 66,
+    "frequency": 5,
+    "monetary": 1585.5
+  },
+  {
+    "customer_id": "13921.0",
+    "recency_days": 85,
+    "frequency": 2,
+    "monetary": 349.1
+  },
+  {
+    "customer_id": "14329.0",
+    "recency_days": 35,
+    "frequency": 6,
+    "monetary": 3228.91
+  },
+  {
+    "customer_id": "17508.0",
+    "recency_days": 18,
+    "frequency": 6,
+    "monetary": 3430.62
+  },
+  {
+    "customer_id": "17490.0",
+    "recency_days": 114,
+    "frequency": 1,
+    "monetary": 353.14
+  },
+  {
+    "customer_id": "18029.0",
+    "recency_days": 187,
+    "frequency": 1,
+    "monetary": 433.77
+  },
+  {
+    "customer_id": "13869.0",
+    "recency_days": 40,
+    "frequency": 4,
+    "monetary": 3497.12
+  },
+  {
+    "customer_id": "12747.0",
+    "recency_days": 14,
+    "frequency": 12,
+    "monetary": 3259.97
+  },
+  {
+    "customer_id": "15361.0",
+    "recency_days": 71,
+    "frequency": 3,
+    "monetary": 270.15
+  },
+  {
+    "customer_id": "18036.0",
+    "recency_days": 7,
+    "frequency": 6,
+    "monetary": 831.91
+  },
+  {
+    "customer_id": "16229.0",
+    "recency_days": 66,
+    "frequency": 3,
+    "monetary": 1088.36
+  },
+  {
+    "customer_id": "12829.0",
+    "recency_days": 95,
+    "frequency": 1,
+    "monetary": 92.3
+  },
+  {
+    "customer_id": "14296.0",
+    "recency_days": 119,
+    "frequency": 1,
+    "monetary": 168.25
+  },
+  {
+    "customer_id": "12483.0",
+    "recency_days": 93,
+    "frequency": 6,
+    "monetary": 1329.7
+  },
+  {
+    "customer_id": "15751.0",
+    "recency_days": 5,
+    "frequency": 11,
+    "monetary": 1380.44
+  },
+  {
+    "customer_id": "12727.0",
+    "recency_days": 92,
+    "frequency": 2,
+    "monetary": 1293.75
+  },
+  {
+    "customer_id": "16037.0",
+    "recency_days": 89,
+    "frequency": 2,
+    "monetary": 654.32
+  },
+  {
+    "customer_id": "12726.0",
+    "recency_days": 92,
+    "frequency": 2,
+    "monetary": 536.88
+  },
+  {
+    "customer_id": "14201.0",
+    "recency_days": 115,
+    "frequency": 2,
+    "monetary": 283.95
+  },
+  {
+    "customer_id": "14435.0",
+    "recency_days": 46,
+    "frequency": 1,
+    "monetary": 90.42
+  },
+  {
+    "customer_id": "12701.0",
+    "recency_days": 74,
+    "frequency": 4,
+    "monetary": 1648.7
+  },
+  {
+    "customer_id": "14324.0",
+    "recency_days": 238,
+    "frequency": 1,
+    "monetary": 361.81
+  },
+  {
+    "customer_id": "12634.0",
+    "recency_days": 80,
+    "frequency": 2,
+    "monetary": 490.0
+  },
+  {
+    "customer_id": "12450.0",
+    "recency_days": 19,
+    "frequency": 1,
+    "monetary": 148.42
+  },
+  {
+    "customer_id": "16736.0",
+    "recency_days": 50,
+    "frequency": 5,
+    "monetary": 2956.56
+  },
+  {
+    "customer_id": "16206.0",
+    "recency_days": 44,
+    "frequency": 4,
+    "monetary": 1075.04
+  },
+  {
+    "customer_id": "16735.0",
+    "recency_days": 7,
+    "frequency": 7,
+    "monetary": 2777.07
+  },
+  {
+    "customer_id": "17322.0",
+    "recency_days": 281,
+    "frequency": 1,
+    "monetary": 114.55
+  },
+  {
+    "customer_id": "14859.0",
+    "recency_days": 99,
+    "frequency": 1,
+    "monetary": 351.9
+  },
+  {
+    "customer_id": "15696.0",
+    "recency_days": 92,
+    "frequency": 4,
+    "monetary": 817.02
+  },
+  {
+    "customer_id": "18144.0",
+    "recency_days": 8,
+    "frequency": 5,
+    "monetary": 1575.35
+  },
+  {
+    "customer_id": "17373.0",
+    "recency_days": 194,
+    "frequency": 1,
+    "monetary": 163.7
+  },
+  {
+    "customer_id": "12402.0",
+    "recency_days": 66,
+    "frequency": 3,
+    "monetary": 725.25
+  },
+  {
+    "customer_id": "14947.0",
+    "recency_days": 74,
+    "frequency": 3,
+    "monetary": 588.52
+  },
+  {
+    "customer_id": "13587.0",
+    "recency_days": 208,
+    "frequency": 1,
+    "monetary": 568.3
+  },
+  {
+    "customer_id": "16119.0",
+    "recency_days": 64,
+    "frequency": 4,
+    "monetary": 879.14
+  },
+  {
+    "customer_id": "15769.0",
+    "recency_days": 7,
+    "frequency": 16,
+    "monetary": 25343.4
+  },
+  {
+    "customer_id": "12809.0",
+    "recency_days": 110,
+    "frequency": 2,
+    "monetary": 1266.63
+  },
+  {
+    "customer_id": "15431.0",
+    "recency_days": 47,
+    "frequency": 1,
+    "monetary": 153.24
+  },
+  {
+    "customer_id": "14395.0",
+    "recency_days": 3,
+    "frequency": 9,
+    "monetary": 3769.59
+  },
+  {
+    "customer_id": "18272.0",
+    "recency_days": 93,
+    "frequency": 3,
+    "monetary": 1307.4
+  },
+  {
+    "customer_id": "17691.0",
+    "recency_days": 91,
+    "frequency": 1,
+    "monetary": 172.65
+  },
+  {
+    "customer_id": "12408.0",
+    "recency_days": 43,
+    "frequency": 1,
+    "monetary": 194.1
+  },
+  {
+    "customer_id": "13026.0",
+    "recency_days": 33,
+    "frequency": 4,
+    "monetary": 757.72
+  },
+  {
+    "customer_id": "17350.0",
+    "recency_days": 92,
+    "frequency": 2,
+    "monetary": 451.47
+  },
+  {
+    "customer_id": "15199.0",
+    "recency_days": 9,
+    "frequency": 4,
+    "monetary": 1241.7
+  },
+  {
+    "customer_id": "13468.0",
+    "recency_days": 2,
+    "frequency": 24,
+    "monetary": 5219.17
+  },
+  {
+    "customer_id": "15137.0",
+    "recency_days": 65,
+    "frequency": 2,
+    "monetary": 823.4
+  },
+  {
+    "customer_id": "13238.0",
+    "recency_days": 135,
+    "frequency": 1,
+    "monetary": 117.0
+  },
+  {
+    "customer_id": "16867.0",
+    "recency_days": 234,
+    "frequency": 1,
+    "monetary": 76.74
+  },
+  {
+    "customer_id": "12949.0",
+    "recency_days": 8,
+    "frequency": 11,
+    "monetary": 8003.7
+  },
+  {
+    "customer_id": "12639.0",
+    "recency_days": 172,
+    "frequency": 1,
+    "monetary": 253.58
+  },
+  {
+    "customer_id": "17931.0",
+    "recency_days": 40,
+    "frequency": 10,
+    "monetary": 2363.46
+  },
+  {
+    "customer_id": "15885.0",
+    "recency_days": 3,
+    "frequency": 9,
+    "monetary": 1148.03
+  },
+  {
+    "customer_id": "14866.0",
+    "recency_days": 15,
+    "frequency": 1,
+    "monetary": 10.0
+  },
+  {
+    "customer_id": "14989.0",
+    "recency_days": 206,
+    "frequency": 1,
+    "monetary": 342.4
+  },
+  {
+    "customer_id": "16326.0",
+    "recency_days": 26,
+    "frequency": 9,
+    "monetary": 1454.68
+  },
+  {
+    "customer_id": "16831.0",
+    "recency_days": 109,
+    "frequency": 1,
+    "monetary": 91.8
+  },
+  {
+    "customer_id": "12379.0",
+    "recency_days": 79,
+    "frequency": 1,
+    "monetary": 367.48
+  },
+  {
+    "customer_id": "16166.0",
+    "recency_days": 236,
+    "frequency": 1,
+    "monetary": 239.84
+  },
+  {
+    "customer_id": "16731.0",
+    "recency_days": 193,
+    "frequency": 1,
+    "monetary": 170.3
+  },
+  {
+    "customer_id": "16807.0",
+    "recency_days": 15,
+    "frequency": 3,
+    "monetary": 1002.29
+  },
+  {
+    "customer_id": "14422.0",
+    "recency_days": 12,
+    "frequency": 10,
+    "monetary": 3904.05
+  },
+  {
+    "customer_id": "18151.0",
+    "recency_days": 103,
+    "frequency": 3,
+    "monetary": 1069.99
+  }
+]

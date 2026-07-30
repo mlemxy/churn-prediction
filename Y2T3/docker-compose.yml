@@ -1,0 +1,48 @@
+services:
+  mysql:
+    image: mariadb:10.5
+    platform: linux/amd64
+    container_name: ospos-mysql-1
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pointofsale
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: pointofsale
+      MYSQL_DATABASE: ospos
+      TZ: Asia/Singapore
+    volumes:
+      - ospos-db-data:/var/lib/mysql
+
+  ospos:
+    image: jekkos/opensourcepos:master
+    platform: linux/amd64
+    container_name: ospos-ospos-1
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_USERNAME: admin
+      MYSQL_PASSWORD: pointofsale
+      MYSQL_DB_NAME: ospos
+      MYSQL_HOST_NAME: mysql
+      TZ: Asia/Singapore
+    ports:
+      - "80:80"
+
+  sidecar:
+    image: python:3.12-slim
+    platform: linux/amd64
+    container_name: ospos-sidecar-1
+    restart: always
+    depends_on:
+      mysql:
+        condition: service_healthy
+      ospos:
+        condition: service_healthy
+    volumes:
+      - "/Volumes/_MEL/School/_sit/AAI2002/lab/week 11:/app"
+    working_dir: /app
+    command: sh -c "pip install pymysql onnxruntime numpy -q && python -u sidecar.py"
+
+volumes:
+  ospos-db-data:
