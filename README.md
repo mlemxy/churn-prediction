@@ -24,14 +24,21 @@ churn-prediction/
 │   ├── main.ipynb
 │   ├── requirements.txt
 │   └── experiment/
-└── Y2T3/                          # AAI2114 edge deployment (current)
-    ├── main.ipynb
+├── Y2T3/                          # AAI2114 edge deployment (current)
+│   ├── main.ipynb
+│   ├── requirements.txt
+│   ├── sidecar.py
+│   ├── docker-compose.yml
+│   ├── score.py
+│   ├── churn_model_edge.onnx
+│   └── ChurnBenchmark/
+└── dashboard/                     # Power BI reporting layer
+    ├── train_logistic_surrogate.py
     ├── requirements.txt
-    ├── sidecar.py
-    ├── docker-compose.yml
-    ├── score.py
-    ├── churn_model_edge.onnx
-    └── ChurnBenchmark/
+    ├── sql_scripts/
+    │   └── create_table.sql
+    ├── Churn Report.pbix
+    └── ITP Presentation.pptx
 ```
 
 ---
@@ -159,3 +166,32 @@ Open `main.ipynb` (developed on Google Colab, x86_64, Python 3.12.13, runs local
 dependencies installed). For the full pipeline demo, see `docker-compose.yml` to bring up
 OSPOS, then run `sidecar.py`. For ARM latency benchmarking, build and install
 `ChurnBenchmark/` on a physical Android device.
+
+---
+
+## dashboard/: Power BI Reporting Layer
+
+A stakeholder-facing dashboard built on top of the Y2T2 model, for teams who need churn
+risk and driver explanations without opening a notebook.
+
+`train_logistic_surrogate.py` distills the full XGBoost model into a 6-feature logistic
+regression using the SHAP top-6 features from `Y2T2/main.ipynb` (contract type, tenure,
+online security, tech support, fiber internet, monthly charges), trained on raw
+(unscaled) values so the coefficients plug directly into a Power BI DAX measure in
+customer units. It prints AUC/accuracy and writes `model_params.json` (intercept +
+coefficients) for that measure.
+
+`sql_scripts/create_table.sql` sets up the backing table the report reads from.
+`Churn Report.pbix` is the Power BI report itself; `ITP Presentation.pptx` is the
+accompanying presentation deck.
+
+### Run it
+
+```bash
+cd churn-prediction/dashboard
+pip install -r requirements.txt
+python train_logistic_surrogate.py
+```
+
+Requires `WA_Fn-UseC_-Telco-Customer-Churn.csv` (the same Y2T2 dataset) in the working
+directory. Open `Churn Report.pbix` in Power BI Desktop to view the report.
